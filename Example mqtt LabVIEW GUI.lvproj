@@ -14,7 +14,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="flare-ucoc.vi" Type="VI" URL="../flare-ucoc.vi"/>
+		<Item Name="mqtt example gui.vi" Type="VI" URL="../mqtt example gui.vi"/>
 		<Item Name="create will message.vi" Type="VI" URL="../create will message.vi"/>
 		<Item Name="dns-pid identifier string.vi" Type="VI" URL="../dns-pid identifier string.vi"/>
 		<Item Name="get pid.vi" Type="VI" URL="../get pid.vi"/>
@@ -28,7 +28,6 @@
 		<Item Name="mqtt register user events.vi" Type="VI" URL="../mqtt register user events.vi"/>
 		<Item Name="mqttCmdConnect.lvclass" Type="LVClass" URL="../../mqtt-LabVIEW/src/class/mqtt/mqttCmd/mqttCmdConnect/mqttCmdConnect.lvclass"/>
 		<Item Name="unicode.ini" Type="Document" URL="../unicode.ini"/>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -140,7 +139,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{C5117E38-403A-4FF5-BDCF-1ED657EBC810}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/flare-ucoc.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
