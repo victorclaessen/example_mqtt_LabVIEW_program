@@ -15,6 +15,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="mqtt example gui.vi" Type="VI" URL="../mqtt example gui.vi"/>
+		<Item Name="mqtt example gui3.vi" Type="VI" URL="../mqtt example gui3.vi"/>
 		<Item Name="create will message.vi" Type="VI" URL="../create will message.vi"/>
 		<Item Name="dns-pid identifier string.vi" Type="VI" URL="../dns-pid identifier string.vi"/>
 		<Item Name="get pid.vi" Type="VI" URL="../get pid.vi"/>
@@ -103,10 +104,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../../mqtt-LabVIEW/src/library/tcpip/TCP_NoDelay_Windows.vi"/>
-			<Item Name="unix time.vi" Type="VI" URL="../unix time.vi"/>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="SubVI_SendTime.vi" Type="VI" URL="../SubVI_SendTime.vi"/>
+			<Item Name="Global mqttExample.vi" Type="VI" URL="../Global mqttExample.vi"/>
+			<Item Name="unix time.vi" Type="VI" URL="../unix time.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FLARE Undulator" Type="EXE">
